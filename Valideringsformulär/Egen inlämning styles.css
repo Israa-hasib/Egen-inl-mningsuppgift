@@ -5,7 +5,7 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body {
-  background-color: #f2f2f2;
+  background-color: #c3aca2;
 }
 .wrapper {
   height: 100vh;
@@ -15,14 +15,14 @@ body {
 
 .validation-form {
   width: 500px;
-  background-color: #ffffff;
+  background-color: #eee7df;
   padding: 1rem;
   border-radius: .5rem;
-  border: 1px solid #d8d8d8;
+  border: 1px solid #000000;
 }
 .headline {
   text-align: center;
-  border-bottom: 1px solid #d8d8d8;
+  border-bottom: 1px solid #000000;
   padding-bottom: 1rem;
 }
 .form-content {
@@ -40,7 +40,7 @@ body {
   width: 100%;
   padding: .5rem;
   border-radius: .5rem;
-  border: 1px solid #d8d8d8;
+  border: 1px solid #000000;
 }
 
 .btn {
@@ -56,16 +56,16 @@ body {
   width: 100%;
 }
 .btn-primary {
-  background-color: hsl(180, 25%, 25%);
-  color: #ffffff;
+  background-color: #b0988b;
+  color: #000000;
   transition: background 70ms;
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: hsl(180, 25%, 30%);
+  background-color: #b0988b;
 }
 .btn-primary:active {
-  background-color: hsl(180, 25%, 20%);
+  background-color: #b0988b8d;
 }
 .validation-feedback {
   margin-top: 1rem;
