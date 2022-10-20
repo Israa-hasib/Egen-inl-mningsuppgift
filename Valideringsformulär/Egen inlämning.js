@@ -121,31 +121,16 @@ form.addEventListener('submit', e => {
   }
   else {
     console.log('Perfekt! Nu har vi tagit emot dina uppgifter')
-  }
-
-  // User objekt
-  function validateForm() {           
-    if(validateText == true &&
-    validateEmail() == true &&
-    validatePassword() == true && 
-    validateCheck() ) {
-        console.log('Perfekt! Nu har vi tagit emot dina uppgifter')       
-        return setSuccess();
-    } else {
-        return setError();
+    // User objekt
+    const user = {
+      firstName: firstName.value,
+      lastName: lastName.value,
+      email: email.value,
+      password: password.value,
     }
-  
+    
+    console.log(user)
   }
-  
-  const user = {      
-    firstName: firstName.value,
-    lastName: lastName.value,
-    email: email.value,
-    password: password.value,
-  }
-  
-  console.log(user)       
-
 })
 
 
