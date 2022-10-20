@@ -1,5 +1,4 @@
 const form = document.querySelector('#validationForm');
-const btn = document.querySelector('#btn');
 
 // First och Lastname
 const validateText = (id) => {
